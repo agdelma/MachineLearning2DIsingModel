@@ -9,7 +9,7 @@ The core idea is to generate (or load) spin configurations across temperature, t
 k_B T_c / J = \frac{2}{\ln(1+\sqrt{2})} \approx 2.269185\ldots
 \]
 
-## Repoistory Format
+## Repository Format
 
 - `src/` : Jupyter notebooks (data generation, training, evaluation, plots)
 - `data/` : saved configurations, labels 
@@ -18,9 +18,10 @@ k_B T_c / J = \frac{2}{\ln(1+\sqrt{2})} \approx 2.269185\ldots
 ## Quickstart
 
 Clone the repo:
-
-  python -m venv .venv
-  source .venv/bin/activate
-  python -m pip install --upgrade pip
-  pip install -r requirements.txt
+```
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
 

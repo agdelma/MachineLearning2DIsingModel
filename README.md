@@ -15,13 +15,3 @@ k_B T_c / J = \frac{2}{\ln(1+\sqrt{2})} \approx 2.269185\ldots
 - `data/` : saved configurations, labels 
 - `include/` : helper files
 
-## Quickstart
-
-Clone the repo:
-```
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
-

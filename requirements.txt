@@ -1,0 +1,20 @@
+### `requirements.txt` (core scientific + Jupyter stack)
+
+# Core scientific Python stack
+numpy>=1.23
+scipy>=1.9
+matplotlib>=3.6
+pandas>=1.5
+scikit-learn>=1.2
+
+# Notebooks
+jupyterlab>=4.0
+ipykernel>=6.0
+
+# utilites 
+tqdm>=4.64
+h5py>=3.8
+ml4s @ git+https://github.com/agdelma/ml4s.git
+
+# tensoftlow
+tensorflow>=2.12
